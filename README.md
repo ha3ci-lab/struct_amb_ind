@@ -6,8 +6,12 @@ This dataset contains **the first Indonesian speech dataset for structurally/ sy
 This corpus is part of our study regarding the disambiguation of structurally ambiguous utterances in Indonesian. Our paper, _Speech Recognition and Meaning Interpretation:
 Towards Disambiguation of Structurally Ambiguous Spoken Utterances in Indonesian_, has been accepted by EMNLP 2023. If you are using the corpus please cite the following paper:
 ```
-coming soon
-(please contact: faradishi@gmail.com or 23523014@std.stei.itb.ac.id)
+@inproceedings{widiaputri-etal-5641,
+  author = {Widiaputri, Ruhiyah Faradishi and Purwarianti, Ayu and Lestari, Dessi Puji and Azizah, Kurniawati and Tanaya, Dipta and Sakti, Sakriani},
+  title = {Speech Recognition and Meaning Interpretation: Towards Disambiguation of Structurally Ambiguous Spoken Utterances in Indonesian},
+  booktitle = {Proceedings of the EMNLP 2023},
+  year = {2023}
+}
 ```
 
 The structurally ambiguous sentences were adapted from Types 4,5,6, and 10 of Types Of Syntactic Ambiguity in English by [[Taha et al., 1983](https://doi.org/10.1515/iral.1983.21.4.251)]. For each chosen type, 100 structurally ambiguous sentences in Indonesian were made by crowdsourcing. Each Indonesian ambiguous sentence has two possible interpretations, resulting in two disambiguation text outputs for each ambiguous sentence. Each disambiguation text is made up of two sentences. All of the sentences have been checked by linguists.
@@ -54,4 +58,4 @@ This directory contains 3 directories:
     -  `train_dev_test_spk_keys`: contain lists of train, dev, and test keys for 4800 pair of structurally ambiguous utterance transcription and its interpretation
 
 4. `other`  
-Our study in the paper also used additional training data for ASR and SD: a subset of [`Indonesian LVCSR news corpus`] (https://github.com/s-sakti/data_indsp_news_lvcsr). Therefore, here we also include the corpus's keys we used as train, dev, and test. If you also use the `Indonesian LVCSR news corpus`, don't forget to also cite the papers mentioned on its github.
+Our study in the paper also used additional training data for ASR and SD: a subset of `Indonesian LVCSR news corpus` (https://github.com/s-sakti/data_indsp_news_lvcsr). Therefore, here we also include the corpus's keys we used as train, dev, and test. If you also use the `Indonesian LVCSR news corpus`, don't forget to also cite the papers mentioned on its github.
