@@ -6,11 +6,21 @@ This dataset contains **the first Indonesian speech dataset for structurally/ sy
 This corpus is part of our study regarding the disambiguation of structurally ambiguous utterances in Indonesian. Our paper, _Speech Recognition and Meaning Interpretation:
 Towards Disambiguation of Structurally Ambiguous Spoken Utterances in Indonesian_, has been accepted by EMNLP 2023. If you are using the corpus please cite the following paper:
 ```
-@inproceedings{widiaputri-etal-5641,
-  author = {Widiaputri, Ruhiyah Faradishi and Purwarianti, Ayu and Lestari, Dessi Puji and Azizah, Kurniawati and Tanaya, Dipta and Sakti, Sakriani},
-  title = {Speech Recognition and Meaning Interpretation: Towards Disambiguation of Structurally Ambiguous Spoken Utterances in Indonesian},
-  booktitle = {Proceedings of the EMNLP 2023},
-  year = {2023}
+@inproceedings{widiaputri-etal-2023-speech,
+    title = "Speech Recognition and Meaning Interpretation: Towards Disambiguation of Structurally Ambiguous Spoken Utterances in {I}ndonesian",
+    author = "Widiaputri, Ruhiyah  and
+      Purwarianti, Ayu  and
+      Lestari, Dessi  and
+      Azizah, Kurniawati  and
+      Tanaya, Dipta  and
+      Sakti, Sakriani",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.1045",
+    doi = "10.18653/v1/2023.emnlp-main.1045",
 }
 ```
 
